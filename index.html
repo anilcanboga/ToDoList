@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript-Yapılacaklar Listesi</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='code.js'></script>
+</head>
+
+<body>
+    <h3 class="baslik">YAPILACAKLAR LİSTESİ</h3>
+    <form action="" id="formYapilacaklar">
+        <input type="text" id="txtYapilacaklar">
+        <input type="button" value="Yapılacaklar Listesine Ekle" id="btnEkle" onclick="listeyeEkle();">
+    </form>
+    <span>
+        <h4 id="yapilacaklar-baslik">Yapılacaklar</h4>
+        <h4 id="yapilacaklar-tamamlanan">Tamamlananlar</h4>
+        <ul id="listeYapilacaklar">
+            <!--Boş Liste-->
+        </ul>
+
+        <ul id="listeTamamlananlar">
+            <!--Boş Liste-->
+        </ul>
+    </span>
+    <h5 id="sonuc"></h5>
+</body>
+
+</html>
