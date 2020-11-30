@@ -25,7 +25,7 @@ function listeyeEkle() {
         btnSil.addEventListener("click", sil);
         console.log(btnSil);
     }
-    else alert("Boş bırakalamaz!");
+    else alert("Boş bırakılamaz!");
 }
 
 function sil() {
