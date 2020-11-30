@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form,span {
+    margin: auto;
+    width: 80%;
+    border: thin solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input[type=button],
+input[type=text] {
+    margin: 0.25rem;
+}
+
+select {
+    max-width: 150px;
+    margin: 0.25rem;
+}
+
+h3,h4,h5,li {
+    text-align: center;
+}
+
+.baslik {
+    background: url(images/not-defteri1.jpg) no-repeat 20% center/5%, url(images/not-defteri2.jpg) no-repeat 85% center/10%;
+    display: block;
+    width: 80%;
+    line-height: 60px;
+    border: thin solid black;
+    margin: auto;
+    padding: 25px 0;
+    color: rgb(163, 39, 39);
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+form>label {
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+}
+
+li img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.25rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#txtYapilacaklar{
+    padding: 5px;
+    
+}
+
+#yapilacaklar-baslik{
+    padding: 5px;
+    text-decoration: underline;
+    color: rgb(31, 104, 172);
+}
+
+#yapilacaklar-tamamlanan{
+    padding: 5px;
+    text-decoration: line-through;
+    color: rgb(30, 172, 77);
+}
+
